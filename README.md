@@ -7,9 +7,10 @@ Prerequisite
 =====
 
 [Bloomberg API Sources](https://www.bloomberg.com/professional/support/api-library/) you can also install it via pip: 
-  python -m pip install --index-url=https://bloomberg.bintray.com/pip/simple blpapi
+
+    python -m pip install --index-url=https://bloomberg.bintray.com/pip/simple blpapi
  
- Some of the functions require a subscription to AIM services, they are always preceded by "aim".
+ Some of the functions require a subscription to AIM services, they are always preceded by "aim" in their name.
   
 Structure
 =====
@@ -26,7 +27,7 @@ The classes Synchronous and Asynchronous have most of their data request types i
    * field_info_request: returns a description for the searched fields
    * field_search_request: enables the use of filtered search using keywords
    * reference_data: returns reference data or bulk reference data (equivalent of BDP)
-   * historical_data: returns historical data, the dates can be alligned
+   * historical_data: returns historical data, the dates can be alligned (equivalent of BDH)
    * intraday_tick_data: returns intraday tick data
    * aim_position_data: returns the position data of the selected portfolio
    * aim_historical_data: returns the historical position of the data of the selected portfolio
