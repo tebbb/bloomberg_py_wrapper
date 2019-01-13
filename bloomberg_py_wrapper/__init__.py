@@ -1,1 +1,1 @@
-from .bloomberg_py_wrapper import Synchronous, Asynchronous, Subscription
+from .wrapper_content import Synchronous, Asynchronous, Subscription
