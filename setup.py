@@ -13,11 +13,11 @@ setuptools.setup(
         "blpapi",
         "signal",
         "datetime",
-    ]
+    ],
     extras_require={
         "Asynchronous": ["threading"],
         "Subscribtion": ["threading"]
-    }
+    },
     classifiers=[
         "Programming Language :: Python :: 2.7",
         "License :: OSI Approved :: GNUv3",
